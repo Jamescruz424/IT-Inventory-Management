@@ -12,7 +12,6 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://happy_wrtr_user:IceMx6wGQFffEPMzKlc3vDhKMSxeVYfe@dpg-cved66btq21c73ed2t10-a.oregon-postgres.render.com/happy_wrtr'
 app.config['SECRET_KEY'] = 'your_secret_key'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-
 # Initialize Database
 db = SQLAlchemy(app)
 
